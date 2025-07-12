@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="title" >CRUD App</h1>
+        <h1  class="title" style="cursor: pointer;" @click="navigateTo('/')" >CRUD App</h1>
             <NuxtPage />
     </div>
 </template>
