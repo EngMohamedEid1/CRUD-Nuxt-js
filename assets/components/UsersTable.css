@@ -84,7 +84,7 @@
   }
   
   
-  @media (max-width: 573px) {
+  @media (max-width: 667px) {
     .users-table .top-bar {
       flex-direction: column;
       gap: 10px;

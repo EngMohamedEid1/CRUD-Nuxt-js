@@ -3,8 +3,9 @@
       <div class="top-bar">
         <input v-model="search" placeholder="Search..." />
         <button @click="$emit('new')">+ Add User</button>
+        <button @click="authStore.logout()">Logout</button>
+
       </div>
-  
       <table>
         <thead>
           <tr>
@@ -36,8 +37,10 @@
   <script setup>
   import { ref, computed } from 'vue'
   import { useUsersStore } from '@/stores/users'
+  import { useAuthStore } from '@/stores/authData'
   
   const usersStore = useUsersStore()
+  const authStore = useAuthStore()
   const search = ref('')
   
   // Pagination

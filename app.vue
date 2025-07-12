@@ -12,10 +12,5 @@ import { NuxtPage } from '#components';
 </template>
 
 <style scoped>
-.title{
-    text-align: center;
-    background-color: var(--color-bg);
-    color: var(--color-text);
-}
 </style>
 
