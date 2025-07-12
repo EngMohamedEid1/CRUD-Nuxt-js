@@ -1,0 +1,13 @@
+@import "../assets/components/variables.css";
+@import "./components/LoginForm.css";
+@import "./components/UsersTable.css";
+@import "./components/UserForm.css";
+@import "./components/LoginPage.css";
+@import "./components/HomePage.css";
+@import "./components/UsersPage.css";
+@import "./components/UserModal.css";
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-bg);
+}

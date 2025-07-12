@@ -1,0 +1,61 @@
+/* assets/css/components/UserForm.css */
+
+.user-form {
+    background-color: var(--color-surface);
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-form div {
+    margin-bottom: 16px;
+  }
+  
+  .user-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .user-form input,
+  .user-form select {
+    width: 100%;
+    padding: var(--input-padding);
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  .user-form input{
+    width: 95%;
+  }
+  /* داخل UserForm.css */
+
+.select-input {
+    width: 100%;
+    padding: var(--input-padding);
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    appearance: none; /* لإزالة الشكل الافتراضي للمتصفح */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='70,100 110,40 30,40' fill='%23ffffff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  
+  .user-form button {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--input-padding);
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    width: 100%;
+  }
+  

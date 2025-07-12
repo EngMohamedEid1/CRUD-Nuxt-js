@@ -1,0 +1,15 @@
+
+:root {
+    --color-bg: #252525;
+    --color-surface: #1e1e1e;
+    --color-border: #2c2c2c;
+    --color-primary: #164048;
+    --color-primary-hover: #0d343c;
+    --color-text: #ffffff;
+    --color-error: #b02325;
+  
+    --radius: 6px;
+    --spacing: 16px;
+    --input-padding: 10px 14px;
+  }
+  

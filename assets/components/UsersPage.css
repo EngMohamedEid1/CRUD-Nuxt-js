@@ -1,0 +1,19 @@
+/* assets/css/components/UsersPage.css */
+
+.users-page {
+
+    gap: 20px;
+    padding: 24px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    box-sizing: border-box;
+  }
+  
+  .users-page .left {
+    flex: 2;
+  }
+  
+  .users-page .right {
+    flex: 1;
+  }
+  
